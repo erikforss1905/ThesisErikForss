@@ -1,0 +1,681 @@
+created on 29.03.2020 at 17:30
+'============================================================
+Model 20, created on 29.03.2020 at 17:30
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.235
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.112
+Method:          ,Least Squares    ,  F-statistic:       ,   18.44
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,8.81e-14
+Time:            ,17:30:47         ,  Log-Likelihood:    ,  129.25
+No. Observations:,    66           ,  AIC:               ,  -238.5
+Df Residuals:    ,    56           ,  BIC:               ,  -216.6
+Df Model:        ,     9           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0551,    0.035,    1.567, 0.117,   -0.014,    0.124
+GROUP_A              ,    0.0041,    0.012,    0.352, 0.725,   -0.018,    0.027
+GROUP_S              ,   -0.0056,    0.010,   -0.544, 0.587,   -0.026,    0.015
+Leverage_T-1         , 5.227e-06, 3.57e-05,    0.147, 0.883,-6.47e-05, 7.51e-05
+SalesGrowth          , 1.922e-05,  1.8e-05,    1.069, 0.285, -1.6e-05, 5.45e-05
+MarketToBookValue_T-1,-8.034e-05,    0.001,   -0.115, 0.908,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.145, 0.032,   -0.001,-6.54e-05
+LOG(MarketCap_T-1)   ,   -0.0082,    0.003,   -2.391, 0.017,   -0.015,   -0.001
+LOG(NetSales_T-1)    ,    0.0044,    0.003,    1.404, 0.160,   -0.002,    0.011
+BlockholderExchange  ,    0.0145,    0.009,    1.577, 0.115,   -0.004,    0.032
+Omnibus:      , 1.555,  Durbin-Watson:     ,   2.048
+Prob(Omnibus):, 0.460,  Jarque-Bera (JB):  ,   1.508
+Skew:         , 0.351,  Prob(JB):          ,   0.470
+Kurtosis:     , 2.762,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 21, created on 29.03.2020 at 17:30
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.297
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.154
+Method:          ,Least Squares    ,  F-statistic:       ,   11.48
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.29e-10
+Time:            ,17:30:47         ,  Log-Likelihood:    ,  132.04
+No. Observations:,    66           ,  AIC:               ,  -240.1
+Df Residuals:    ,    54           ,  BIC:               ,  -213.8
+Df Model:        ,    11           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0519,    0.035,    1.466, 0.143,   -0.017,    0.121
+Block_5              ,   -0.0284,    0.013,   -2.130, 0.033,   -0.055,   -0.002
+Block_10             ,   -0.0156,    0.015,   -1.045, 0.296,   -0.045,    0.014
+Block_20             ,   -0.0177,    0.018,   -0.977, 0.329,   -0.053,    0.018
+Block_30             ,   -0.0336,    0.018,   -1.873, 0.061,   -0.069,    0.002
+Leverage_T-1         ,-1.794e-06, 3.36e-05,   -0.053, 0.957,-6.77e-05, 6.41e-05
+SalesGrowth          , 1.868e-05, 1.87e-05,    0.999, 0.318, -1.8e-05, 5.53e-05
+MarketToBookValue_T-1, 5.806e-05,    0.001,    0.088, 0.930,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.495, 0.013,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0093,    0.003,   -2.673, 0.008,   -0.016,   -0.002
+LOG(NetSales_T-1)    ,    0.0072,    0.003,    2.160, 0.031,    0.001,    0.014
+BlockholderExchange  ,    0.0160,    0.008,    1.895, 0.058,   -0.001,    0.032
+Omnibus:      , 1.850,  Durbin-Watson:     ,   2.162
+Prob(Omnibus):, 0.397,  Jarque-Bera (JB):  ,   1.559
+Skew:         , 0.225,  Prob(JB):          ,   0.459
+Kurtosis:     , 2.396,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 22, created on 29.03.2020 at 17:30
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.307
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.134
+Method:          ,Least Squares    ,  F-statistic:       ,   11.40
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,4.91e-11
+Time:            ,17:30:47         ,  Log-Likelihood:    ,  132.52
+No. Observations:,    66           ,  AIC:               ,  -237.0
+Df Residuals:    ,    52           ,  BIC:               ,  -206.4
+Df Model:        ,    13           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0569,    0.037,    1.552, 0.121,   -0.015,    0.129
+Block_5              ,   -0.0299,    0.013,   -2.261, 0.024,   -0.056,   -0.004
+Block_10             ,   -0.0171,    0.015,   -1.155, 0.248,   -0.046,    0.012
+Block_20             ,   -0.0175,    0.018,   -0.992, 0.321,   -0.052,    0.017
+Block_30             ,   -0.0340,    0.017,   -2.033, 0.042,   -0.067,   -0.001
+GROUP_A              ,    0.0092,    0.010,    0.921, 0.357,   -0.010,    0.029
+GROUP_S              ,   -0.0033,    0.010,   -0.332, 0.740,   -0.023,    0.016
+Leverage_T-1         , 1.064e-06, 3.47e-05,    0.031, 0.976, -6.7e-05, 6.92e-05
+SalesGrowth          , 1.663e-05, 1.97e-05,    0.842, 0.400,-2.21e-05, 5.53e-05
+MarketToBookValue_T-1, 3.842e-06,    0.001,    0.006, 0.995,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0007,    0.000,   -2.171, 0.030,   -0.001,-7.11e-05
+LOG(MarketCap_T-1)   ,   -0.0097,    0.003,   -2.807, 0.005,   -0.017,   -0.003
+LOG(NetSales_T-1)    ,    0.0071,    0.003,    2.112, 0.035,    0.001,    0.014
+BlockholderExchange  ,    0.0194,    0.009,    2.156, 0.031,    0.002,    0.037
+Omnibus:      , 1.513,  Durbin-Watson:     ,   2.155
+Prob(Omnibus):, 0.469,  Jarque-Bera (JB):  ,   1.438
+Skew:         , 0.249,  Prob(JB):          ,   0.487
+Kurtosis:     , 2.475,  Cond. No.          ,5.51e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 23, created on 29.03.2020 at 17:30
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.228
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.135
+Method:          ,Least Squares    ,  F-statistic:       ,   19.62
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,3.46e-13
+Time:            ,17:30:47         ,  Log-Likelihood:    ,  128.95
+No. Observations:,    66           ,  AIC:               ,  -241.9
+Df Residuals:    ,    58           ,  BIC:               ,  -224.4
+Df Model:        ,     7           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0514,    0.034,    1.511, 0.131,   -0.015,    0.118
+Leverage_T-1         , 5.154e-06, 3.38e-05,    0.152, 0.879,-6.11e-05, 7.14e-05
+SalesGrowth          , 1.854e-05, 1.63e-05,    1.135, 0.256,-1.35e-05, 5.06e-05
+MarketToBookValue_T-1,-7.945e-05,    0.001,   -0.120, 0.904,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.328, 0.020,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0080,    0.003,   -2.316, 0.021,   -0.015,   -0.001
+LOG(NetSales_T-1)    ,    0.0045,    0.003,    1.442, 0.149,   -0.002,    0.011
+BlockholderExchange  ,    0.0122,    0.009,    1.370, 0.171,   -0.005,    0.030
+Omnibus:      , 1.409,  Durbin-Watson:     ,   2.049
+Prob(Omnibus):, 0.494,  Jarque-Bera (JB):  ,   1.314
+Skew:         , 0.334,  Prob(JB):          ,   0.518
+Kurtosis:     , 2.824,  Cond. No.          ,5.35e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.35e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 16, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.209
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.082
+Method:          ,Least Squares    ,  F-statistic:       ,   45.38
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.60e-22
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  120.83
+No. Observations:,    66           ,  AIC:               ,  -221.7
+Df Residuals:    ,    56           ,  BIC:               ,  -199.8
+Df Model:        ,     9           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0575,    0.033,    1.729, 0.084,   -0.008,    0.123
+GROUP_A              ,    0.0050,    0.013,    0.377, 0.707,   -0.021,    0.031
+GROUP_S              ,    0.0045,    0.013,    0.342, 0.732,   -0.021,    0.031
+Leverage_T-1         ,-8.828e-06, 2.92e-05,   -0.303, 0.762, -6.6e-05, 4.83e-05
+SalesGrowth          , 3.519e-05, 1.61e-05,    2.180, 0.029, 3.56e-06, 6.68e-05
+MarketToBookValue_T-1,    0.0002,    0.001,    0.350, 0.726,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0010,    0.000,   -3.503, 0.000,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0073,    0.006,   -1.267, 0.205,   -0.019,    0.004
+LOG(NetSales_T-1)    ,    0.0034,    0.006,    0.614, 0.539,   -0.007,    0.014
+BlockholderExchange  ,   -0.0005,    0.011,   -0.046, 0.963,   -0.022,    0.021
+Omnibus:      ,23.696,  Durbin-Watson:     ,   2.039
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  38.936
+Skew:         , 1.301,  Prob(JB):          ,3.51e-09
+Kurtosis:     , 5.719,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 17, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.324
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.187
+Method:          ,Least Squares    ,  F-statistic:       ,   45.89
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,2.08e-23
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  126.05
+No. Observations:,    66           ,  AIC:               ,  -228.1
+Df Residuals:    ,    54           ,  BIC:               ,  -201.8
+Df Model:        ,    11           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0594,    0.032,    1.841, 0.066,   -0.004,    0.123
+Block_5              ,   -0.0348,    0.012,   -2.844, 0.004,   -0.059,   -0.011
+Block_10             ,   -0.0180,    0.014,   -1.271, 0.204,   -0.046,    0.010
+Block_20             ,    0.0071,    0.025,    0.282, 0.778,   -0.042,    0.057
+Block_30             ,   -0.0207,    0.022,   -0.928, 0.353,   -0.064,    0.023
+Leverage_T-1         ,-2.003e-05, 2.72e-05,   -0.736, 0.462,-7.34e-05, 3.33e-05
+SalesGrowth          , 2.661e-05, 1.98e-05,    1.341, 0.180,-1.23e-05, 6.55e-05
+MarketToBookValue_T-1,    0.0004,    0.001,    0.787, 0.431,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0009,    0.000,   -4.226, 0.000,   -0.001,   -0.001
+LOG(MarketCap_T-1)   ,   -0.0073,    0.005,   -1.479, 0.139,   -0.017,    0.002
+LOG(NetSales_T-1)    ,    0.0049,    0.004,    1.084, 0.278,   -0.004,    0.014
+BlockholderExchange  ,   -0.0009,    0.011,   -0.083, 0.934,   -0.022,    0.020
+Omnibus:      ,17.947,  Durbin-Watson:     ,   1.869
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  24.078
+Skew:         , 1.094,  Prob(JB):          ,5.91e-06
+Kurtosis:     , 4.993,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 18, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.330
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.163
+Method:          ,Least Squares    ,  F-statistic:       ,   60.48
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.15e-26
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  126.34
+No. Observations:,    66           ,  AIC:               ,  -224.7
+Df Residuals:    ,    52           ,  BIC:               ,  -194.0
+Df Model:        ,    13           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0627,    0.033,    1.884, 0.060,   -0.003,    0.128
+Block_5              ,   -0.0369,    0.013,   -2.940, 0.003,   -0.061,   -0.012
+Block_10             ,   -0.0208,    0.015,   -1.409, 0.159,   -0.050,    0.008
+Block_20             ,    0.0048,    0.025,    0.198, 0.843,   -0.043,    0.053
+Block_30             ,   -0.0225,    0.021,   -1.091, 0.275,   -0.063,    0.018
+GROUP_A              ,    0.0104,    0.012,    0.884, 0.376,   -0.013,    0.034
+GROUP_S              ,    0.0024,    0.011,    0.213, 0.831,   -0.020,    0.025
+Leverage_T-1         ,-1.539e-05, 2.76e-05,   -0.558, 0.577,-6.95e-05, 3.87e-05
+SalesGrowth          , 2.333e-05, 2.01e-05,    1.158, 0.247,-1.61e-05, 6.28e-05
+MarketToBookValue_T-1,    0.0003,    0.001,    0.613, 0.540,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0009,    0.000,   -3.686, 0.000,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0077,    0.005,   -1.554, 0.120,   -0.017,    0.002
+LOG(NetSales_T-1)    ,    0.0048,    0.005,    1.039, 0.299,   -0.004,    0.014
+BlockholderExchange  ,    0.0020,    0.012,    0.176, 0.861,   -0.021,    0.025
+Omnibus:      ,18.777,  Durbin-Watson:     ,   1.851
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  25.908
+Skew:         , 1.125,  Prob(JB):          ,2.37e-06
+Kurtosis:     , 5.087,  Cond. No.          ,5.51e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 19, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.206
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.110
+Method:          ,Least Squares    ,  F-statistic:       ,   46.28
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.94e-21
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  120.73
+No. Observations:,    66           ,  AIC:               ,  -225.5
+Df Residuals:    ,    58           ,  BIC:               ,  -207.9
+Df Model:        ,     7           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0576,    0.033,    1.729, 0.084,   -0.008,    0.123
+Leverage_T-1         , -1.33e-05,  2.7e-05,   -0.493, 0.622,-6.62e-05, 3.96e-05
+SalesGrowth          , 3.845e-05, 1.36e-05,    2.828, 0.005, 1.18e-05, 6.51e-05
+MarketToBookValue_T-1,    0.0003,    0.001,    0.542, 0.588,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0010,    0.000,   -3.801, 0.000,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0071,    0.006,   -1.218, 0.223,   -0.019,    0.004
+LOG(NetSales_T-1)    ,    0.0035,    0.005,    0.636, 0.525,   -0.007,    0.014
+BlockholderExchange  ,   -0.0012,    0.009,   -0.128, 0.898,   -0.020,    0.017
+Omnibus:      ,24.581,  Durbin-Watson:     ,   2.033
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  41.984
+Skew:         , 1.326,  Prob(JB):          ,7.64e-10
+Kurtosis:     , 5.870,  Cond. No.          ,5.35e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.35e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 20, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.235
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.112
+Method:          ,Least Squares    ,  F-statistic:       ,   18.44
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,8.81e-14
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  129.25
+No. Observations:,    66           ,  AIC:               ,  -238.5
+Df Residuals:    ,    56           ,  BIC:               ,  -216.6
+Df Model:        ,     9           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0551,    0.035,    1.567, 0.117,   -0.014,    0.124
+GROUP_A              ,    0.0041,    0.012,    0.352, 0.725,   -0.018,    0.027
+GROUP_S              ,   -0.0056,    0.010,   -0.544, 0.587,   -0.026,    0.015
+Leverage_T-1         , 5.227e-06, 3.57e-05,    0.147, 0.883,-6.47e-05, 7.51e-05
+SalesGrowth          , 1.922e-05,  1.8e-05,    1.069, 0.285, -1.6e-05, 5.45e-05
+MarketToBookValue_T-1,-8.034e-05,    0.001,   -0.115, 0.908,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.145, 0.032,   -0.001,-6.54e-05
+LOG(MarketCap_T-1)   ,   -0.0082,    0.003,   -2.391, 0.017,   -0.015,   -0.001
+LOG(NetSales_T-1)    ,    0.0044,    0.003,    1.404, 0.160,   -0.002,    0.011
+BlockholderExchange  ,    0.0145,    0.009,    1.577, 0.115,   -0.004,    0.032
+Omnibus:      , 1.555,  Durbin-Watson:     ,   2.048
+Prob(Omnibus):, 0.460,  Jarque-Bera (JB):  ,   1.508
+Skew:         , 0.351,  Prob(JB):          ,   0.470
+Kurtosis:     , 2.762,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 21, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.297
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.154
+Method:          ,Least Squares    ,  F-statistic:       ,   11.48
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.29e-10
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  132.04
+No. Observations:,    66           ,  AIC:               ,  -240.1
+Df Residuals:    ,    54           ,  BIC:               ,  -213.8
+Df Model:        ,    11           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0519,    0.035,    1.466, 0.143,   -0.017,    0.121
+Block_5              ,   -0.0284,    0.013,   -2.130, 0.033,   -0.055,   -0.002
+Block_10             ,   -0.0156,    0.015,   -1.045, 0.296,   -0.045,    0.014
+Block_20             ,   -0.0177,    0.018,   -0.977, 0.329,   -0.053,    0.018
+Block_30             ,   -0.0336,    0.018,   -1.873, 0.061,   -0.069,    0.002
+Leverage_T-1         ,-1.794e-06, 3.36e-05,   -0.053, 0.957,-6.77e-05, 6.41e-05
+SalesGrowth          , 1.868e-05, 1.87e-05,    0.999, 0.318, -1.8e-05, 5.53e-05
+MarketToBookValue_T-1, 5.806e-05,    0.001,    0.088, 0.930,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.495, 0.013,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0093,    0.003,   -2.673, 0.008,   -0.016,   -0.002
+LOG(NetSales_T-1)    ,    0.0072,    0.003,    2.160, 0.031,    0.001,    0.014
+BlockholderExchange  ,    0.0160,    0.008,    1.895, 0.058,   -0.001,    0.032
+Omnibus:      , 1.850,  Durbin-Watson:     ,   2.162
+Prob(Omnibus):, 0.397,  Jarque-Bera (JB):  ,   1.559
+Skew:         , 0.225,  Prob(JB):          ,   0.459
+Kurtosis:     , 2.396,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 22, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.307
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.134
+Method:          ,Least Squares    ,  F-statistic:       ,   11.40
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,4.91e-11
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  132.52
+No. Observations:,    66           ,  AIC:               ,  -237.0
+Df Residuals:    ,    52           ,  BIC:               ,  -206.4
+Df Model:        ,    13           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0569,    0.037,    1.552, 0.121,   -0.015,    0.129
+Block_5              ,   -0.0299,    0.013,   -2.261, 0.024,   -0.056,   -0.004
+Block_10             ,   -0.0171,    0.015,   -1.155, 0.248,   -0.046,    0.012
+Block_20             ,   -0.0175,    0.018,   -0.992, 0.321,   -0.052,    0.017
+Block_30             ,   -0.0340,    0.017,   -2.033, 0.042,   -0.067,   -0.001
+GROUP_A              ,    0.0092,    0.010,    0.921, 0.357,   -0.010,    0.029
+GROUP_S              ,   -0.0033,    0.010,   -0.332, 0.740,   -0.023,    0.016
+Leverage_T-1         , 1.064e-06, 3.47e-05,    0.031, 0.976, -6.7e-05, 6.92e-05
+SalesGrowth          , 1.663e-05, 1.97e-05,    0.842, 0.400,-2.21e-05, 5.53e-05
+MarketToBookValue_T-1, 3.842e-06,    0.001,    0.006, 0.995,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0007,    0.000,   -2.171, 0.030,   -0.001,-7.11e-05
+LOG(MarketCap_T-1)   ,   -0.0097,    0.003,   -2.807, 0.005,   -0.017,   -0.003
+LOG(NetSales_T-1)    ,    0.0071,    0.003,    2.112, 0.035,    0.001,    0.014
+BlockholderExchange  ,    0.0194,    0.009,    2.156, 0.031,    0.002,    0.037
+Omnibus:      , 1.513,  Durbin-Watson:     ,   2.155
+Prob(Omnibus):, 0.469,  Jarque-Bera (JB):  ,   1.438
+Skew:         , 0.249,  Prob(JB):          ,   0.487
+Kurtosis:     , 2.475,  Cond. No.          ,5.51e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 23, created on 29.03.2020 at 17:31
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.228
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.135
+Method:          ,Least Squares    ,  F-statistic:       ,   19.62
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,3.46e-13
+Time:            ,17:31:38         ,  Log-Likelihood:    ,  128.95
+No. Observations:,    66           ,  AIC:               ,  -241.9
+Df Residuals:    ,    58           ,  BIC:               ,  -224.4
+Df Model:        ,     7           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0514,    0.034,    1.511, 0.131,   -0.015,    0.118
+Leverage_T-1         , 5.154e-06, 3.38e-05,    0.152, 0.879,-6.11e-05, 7.14e-05
+SalesGrowth          , 1.854e-05, 1.63e-05,    1.135, 0.256,-1.35e-05, 5.06e-05
+MarketToBookValue_T-1,-7.945e-05,    0.001,   -0.120, 0.904,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.328, 0.020,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0080,    0.003,   -2.316, 0.021,   -0.015,   -0.001
+LOG(NetSales_T-1)    ,    0.0045,    0.003,    1.442, 0.149,   -0.002,    0.011
+BlockholderExchange  ,    0.0122,    0.009,    1.370, 0.171,   -0.005,    0.030
+Omnibus:      , 1.409,  Durbin-Watson:     ,   2.049
+Prob(Omnibus):, 0.494,  Jarque-Bera (JB):  ,   1.314
+Skew:         , 0.334,  Prob(JB):          ,   0.518
+Kurtosis:     , 2.824,  Cond. No.          ,5.35e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.35e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 16, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.209
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.082
+Method:          ,Least Squares    ,  F-statistic:       ,   45.38
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.60e-22
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  120.83
+No. Observations:,    66           ,  AIC:               ,  -221.7
+Df Residuals:    ,    56           ,  BIC:               ,  -199.8
+Df Model:        ,     9           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0575,    0.033,    1.729, 0.084,   -0.008,    0.123
+GROUP_A              ,    0.0050,    0.013,    0.377, 0.707,   -0.021,    0.031
+GROUP_S              ,    0.0045,    0.013,    0.342, 0.732,   -0.021,    0.031
+Leverage_T-1         ,-8.828e-06, 2.92e-05,   -0.303, 0.762, -6.6e-05, 4.83e-05
+SalesGrowth          , 3.519e-05, 1.61e-05,    2.180, 0.029, 3.56e-06, 6.68e-05
+MarketToBookValue_T-1,    0.0002,    0.001,    0.350, 0.726,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0010,    0.000,   -3.503, 0.000,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0073,    0.006,   -1.267, 0.205,   -0.019,    0.004
+LOG(NetSales_T-1)    ,    0.0034,    0.006,    0.614, 0.539,   -0.007,    0.014
+BlockholderExchange  ,   -0.0005,    0.011,   -0.046, 0.963,   -0.022,    0.021
+Omnibus:      ,23.696,  Durbin-Watson:     ,   2.039
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  38.936
+Skew:         , 1.301,  Prob(JB):          ,3.51e-09
+Kurtosis:     , 5.719,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 17, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.324
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.187
+Method:          ,Least Squares    ,  F-statistic:       ,   45.89
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,2.08e-23
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  126.05
+No. Observations:,    66           ,  AIC:               ,  -228.1
+Df Residuals:    ,    54           ,  BIC:               ,  -201.8
+Df Model:        ,    11           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0594,    0.032,    1.841, 0.066,   -0.004,    0.123
+Block_5              ,   -0.0348,    0.012,   -2.844, 0.004,   -0.059,   -0.011
+Block_10             ,   -0.0180,    0.014,   -1.271, 0.204,   -0.046,    0.010
+Block_20             ,    0.0071,    0.025,    0.282, 0.778,   -0.042,    0.057
+Block_30             ,   -0.0207,    0.022,   -0.928, 0.353,   -0.064,    0.023
+Leverage_T-1         ,-2.003e-05, 2.72e-05,   -0.736, 0.462,-7.34e-05, 3.33e-05
+SalesGrowth          , 2.661e-05, 1.98e-05,    1.341, 0.180,-1.23e-05, 6.55e-05
+MarketToBookValue_T-1,    0.0004,    0.001,    0.787, 0.431,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0009,    0.000,   -4.226, 0.000,   -0.001,   -0.001
+LOG(MarketCap_T-1)   ,   -0.0073,    0.005,   -1.479, 0.139,   -0.017,    0.002
+LOG(NetSales_T-1)    ,    0.0049,    0.004,    1.084, 0.278,   -0.004,    0.014
+BlockholderExchange  ,   -0.0009,    0.011,   -0.083, 0.934,   -0.022,    0.020
+Omnibus:      ,17.947,  Durbin-Watson:     ,   1.869
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  24.078
+Skew:         , 1.094,  Prob(JB):          ,5.91e-06
+Kurtosis:     , 4.993,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 18, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.330
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.163
+Method:          ,Least Squares    ,  F-statistic:       ,   60.48
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.15e-26
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  126.34
+No. Observations:,    66           ,  AIC:               ,  -224.7
+Df Residuals:    ,    52           ,  BIC:               ,  -194.0
+Df Model:        ,    13           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0627,    0.033,    1.884, 0.060,   -0.003,    0.128
+Block_5              ,   -0.0369,    0.013,   -2.940, 0.003,   -0.061,   -0.012
+Block_10             ,   -0.0208,    0.015,   -1.409, 0.159,   -0.050,    0.008
+Block_20             ,    0.0048,    0.025,    0.198, 0.843,   -0.043,    0.053
+Block_30             ,   -0.0225,    0.021,   -1.091, 0.275,   -0.063,    0.018
+GROUP_A              ,    0.0104,    0.012,    0.884, 0.376,   -0.013,    0.034
+GROUP_S              ,    0.0024,    0.011,    0.213, 0.831,   -0.020,    0.025
+Leverage_T-1         ,-1.539e-05, 2.76e-05,   -0.558, 0.577,-6.95e-05, 3.87e-05
+SalesGrowth          , 2.333e-05, 2.01e-05,    1.158, 0.247,-1.61e-05, 6.28e-05
+MarketToBookValue_T-1,    0.0003,    0.001,    0.613, 0.540,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0009,    0.000,   -3.686, 0.000,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0077,    0.005,   -1.554, 0.120,   -0.017,    0.002
+LOG(NetSales_T-1)    ,    0.0048,    0.005,    1.039, 0.299,   -0.004,    0.014
+BlockholderExchange  ,    0.0020,    0.012,    0.176, 0.861,   -0.021,    0.025
+Omnibus:      ,18.777,  Durbin-Watson:     ,   1.851
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  25.908
+Skew:         , 1.125,  Prob(JB):          ,2.37e-06
+Kurtosis:     , 5.087,  Cond. No.          ,5.51e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 19, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_1          ,  R-squared:         ,   0.206
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.110
+Method:          ,Least Squares    ,  F-statistic:       ,   46.28
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.94e-21
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  120.73
+No. Observations:,    66           ,  AIC:               ,  -225.5
+Df Residuals:    ,    58           ,  BIC:               ,  -207.9
+Df Model:        ,     7           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0576,    0.033,    1.729, 0.084,   -0.008,    0.123
+Leverage_T-1         , -1.33e-05,  2.7e-05,   -0.493, 0.622,-6.62e-05, 3.96e-05
+SalesGrowth          , 3.845e-05, 1.36e-05,    2.828, 0.005, 1.18e-05, 6.51e-05
+MarketToBookValue_T-1,    0.0003,    0.001,    0.542, 0.588,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0010,    0.000,   -3.801, 0.000,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0071,    0.006,   -1.218, 0.223,   -0.019,    0.004
+LOG(NetSales_T-1)    ,    0.0035,    0.005,    0.636, 0.525,   -0.007,    0.014
+BlockholderExchange  ,   -0.0012,    0.009,   -0.128, 0.898,   -0.020,    0.017
+Omnibus:      ,24.581,  Durbin-Watson:     ,   2.033
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  41.984
+Skew:         , 1.326,  Prob(JB):          ,7.64e-10
+Kurtosis:     , 5.870,  Cond. No.          ,5.35e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.35e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 20, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.235
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.112
+Method:          ,Least Squares    ,  F-statistic:       ,   18.44
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,8.81e-14
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  129.25
+No. Observations:,    66           ,  AIC:               ,  -238.5
+Df Residuals:    ,    56           ,  BIC:               ,  -216.6
+Df Model:        ,     9           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0551,    0.035,    1.567, 0.117,   -0.014,    0.124
+GROUP_A              ,    0.0041,    0.012,    0.352, 0.725,   -0.018,    0.027
+GROUP_S              ,   -0.0056,    0.010,   -0.544, 0.587,   -0.026,    0.015
+Leverage_T-1         , 5.227e-06, 3.57e-05,    0.147, 0.883,-6.47e-05, 7.51e-05
+SalesGrowth          , 1.922e-05,  1.8e-05,    1.069, 0.285, -1.6e-05, 5.45e-05
+MarketToBookValue_T-1,-8.034e-05,    0.001,   -0.115, 0.908,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.145, 0.032,   -0.001,-6.54e-05
+LOG(MarketCap_T-1)   ,   -0.0082,    0.003,   -2.391, 0.017,   -0.015,   -0.001
+LOG(NetSales_T-1)    ,    0.0044,    0.003,    1.404, 0.160,   -0.002,    0.011
+BlockholderExchange  ,    0.0145,    0.009,    1.577, 0.115,   -0.004,    0.032
+Omnibus:      , 1.555,  Durbin-Watson:     ,   2.048
+Prob(Omnibus):, 0.460,  Jarque-Bera (JB):  ,   1.508
+Skew:         , 0.351,  Prob(JB):          ,   0.470
+Kurtosis:     , 2.762,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 21, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.297
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.154
+Method:          ,Least Squares    ,  F-statistic:       ,   11.48
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,1.29e-10
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  132.04
+No. Observations:,    66           ,  AIC:               ,  -240.1
+Df Residuals:    ,    54           ,  BIC:               ,  -213.8
+Df Model:        ,    11           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0519,    0.035,    1.466, 0.143,   -0.017,    0.121
+Block_5              ,   -0.0284,    0.013,   -2.130, 0.033,   -0.055,   -0.002
+Block_10             ,   -0.0156,    0.015,   -1.045, 0.296,   -0.045,    0.014
+Block_20             ,   -0.0177,    0.018,   -0.977, 0.329,   -0.053,    0.018
+Block_30             ,   -0.0336,    0.018,   -1.873, 0.061,   -0.069,    0.002
+Leverage_T-1         ,-1.794e-06, 3.36e-05,   -0.053, 0.957,-6.77e-05, 6.41e-05
+SalesGrowth          , 1.868e-05, 1.87e-05,    0.999, 0.318, -1.8e-05, 5.53e-05
+MarketToBookValue_T-1, 5.806e-05,    0.001,    0.088, 0.930,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.495, 0.013,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0093,    0.003,   -2.673, 0.008,   -0.016,   -0.002
+LOG(NetSales_T-1)    ,    0.0072,    0.003,    2.160, 0.031,    0.001,    0.014
+BlockholderExchange  ,    0.0160,    0.008,    1.895, 0.058,   -0.001,    0.032
+Omnibus:      , 1.850,  Durbin-Watson:     ,   2.162
+Prob(Omnibus):, 0.397,  Jarque-Bera (JB):  ,   1.559
+Skew:         , 0.225,  Prob(JB):          ,   0.459
+Kurtosis:     , 2.396,  Cond. No.          ,5.42e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.42e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 22, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.307
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.134
+Method:          ,Least Squares    ,  F-statistic:       ,   11.40
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,4.91e-11
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  132.52
+No. Observations:,    66           ,  AIC:               ,  -237.0
+Df Residuals:    ,    52           ,  BIC:               ,  -206.4
+Df Model:        ,    13           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0569,    0.037,    1.552, 0.121,   -0.015,    0.129
+Block_5              ,   -0.0299,    0.013,   -2.261, 0.024,   -0.056,   -0.004
+Block_10             ,   -0.0171,    0.015,   -1.155, 0.248,   -0.046,    0.012
+Block_20             ,   -0.0175,    0.018,   -0.992, 0.321,   -0.052,    0.017
+Block_30             ,   -0.0340,    0.017,   -2.033, 0.042,   -0.067,   -0.001
+GROUP_A              ,    0.0092,    0.010,    0.921, 0.357,   -0.010,    0.029
+GROUP_S              ,   -0.0033,    0.010,   -0.332, 0.740,   -0.023,    0.016
+Leverage_T-1         , 1.064e-06, 3.47e-05,    0.031, 0.976, -6.7e-05, 6.92e-05
+SalesGrowth          , 1.663e-05, 1.97e-05,    0.842, 0.400,-2.21e-05, 5.53e-05
+MarketToBookValue_T-1, 3.842e-06,    0.001,    0.006, 0.995,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0007,    0.000,   -2.171, 0.030,   -0.001,-7.11e-05
+LOG(MarketCap_T-1)   ,   -0.0097,    0.003,   -2.807, 0.005,   -0.017,   -0.003
+LOG(NetSales_T-1)    ,    0.0071,    0.003,    2.112, 0.035,    0.001,    0.014
+BlockholderExchange  ,    0.0194,    0.009,    2.156, 0.031,    0.002,    0.037
+Omnibus:      , 1.513,  Durbin-Watson:     ,   2.155
+Prob(Omnibus):, 0.469,  Jarque-Bera (JB):  ,   1.438
+Skew:         , 0.249,  Prob(JB):          ,   0.487
+Kurtosis:     , 2.475,  Cond. No.          ,5.51e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+'============================================================
+Model 23, created on 29.03.2020 at 17:34
+------------------------------------------------------------
+                      OLS Regression Results                      
+Dep. Variable:   ,car_1_0          ,  R-squared:         ,   0.228
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.135
+Method:          ,Least Squares    ,  F-statistic:       ,   19.62
+Date:            ,Sun - 29 Mar 2020,  Prob (F-statistic):,3.46e-13
+Time:            ,17:34:14         ,  Log-Likelihood:    ,  128.95
+No. Observations:,    66           ,  AIC:               ,  -241.9
+Df Residuals:    ,    58           ,  BIC:               ,  -224.4
+Df Model:        ,     7           ,                     ,        
+Covariance Type: ,HC0              ,                     ,        
+                     ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                ,    0.0514,    0.034,    1.511, 0.131,   -0.015,    0.118
+Leverage_T-1         , 5.154e-06, 3.38e-05,    0.152, 0.879,-6.11e-05, 7.14e-05
+SalesGrowth          , 1.854e-05, 1.63e-05,    1.135, 0.256,-1.35e-05, 5.06e-05
+MarketToBookValue_T-1,-7.945e-05,    0.001,   -0.120, 0.904,   -0.001,    0.001
+ReturnOnAssets_T-1   ,   -0.0008,    0.000,   -2.328, 0.020,   -0.001,   -0.000
+LOG(MarketCap_T-1)   ,   -0.0080,    0.003,   -2.316, 0.021,   -0.015,   -0.001
+LOG(NetSales_T-1)    ,    0.0045,    0.003,    1.442, 0.149,   -0.002,    0.011
+BlockholderExchange  ,    0.0122,    0.009,    1.370, 0.171,   -0.005,    0.030
+Omnibus:      , 1.409,  Durbin-Watson:     ,   2.049
+Prob(Omnibus):, 0.494,  Jarque-Bera (JB):  ,   1.314
+Skew:         , 0.334,  Prob(JB):          ,   0.518
+Kurtosis:     , 2.824,  Cond. No.          ,5.35e+04
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+[2] The condition number is large, 5.35e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
